@@ -13,9 +13,8 @@ role: Ph.D. Student, Economics
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: New York University,
- Stern School of Business
-  url: https://www.stern.nyu.edu/experience-stern/about/departments-centers-initiatives/academic-departments/economics
+- name: New York University, Stern School of Business
+- url: https://www.stern.nyu.edu/experience-stern/about/departments-centers-initiatives/academic-departments/economics
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include macroeconomics, large games, and models of household behavior with 'bounded rationality' (using Simon's original [sense](#boundedRationalityModal) .) 
