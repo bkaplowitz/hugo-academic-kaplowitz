@@ -77,8 +77,8 @@ address_format: en-us
 highlight: true
 highlight_languages:
   - r
-math: false
-diagram: false
+math: true
+diagram: true
 privacy_pack: false
 edit_page:
   repo_url: ''
@@ -106,7 +106,10 @@ copyright_license:
   allow_commercial: false
   notice: 'This work is licensed under {license}'
 abstract_length: 135
-plugins_js: []
+plugins_js: 
+  - "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+plugins_css:
+  - "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
 avatar:
   gravatar: false
   shape: circle

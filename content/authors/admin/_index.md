@@ -2,6 +2,9 @@
 # Display name
 title: Brandon Kaplowitz
 
+first_name: Brandon
+last_name: Kaplowitz
+
 # Is this the primary user of the site?
 superuser: true
 
@@ -15,14 +18,33 @@ organizations:
   url: https://www.stern.nyu.edu/experience-stern/about/departments-centers-initiatives/academic-departments/economics
 
 # Short bio (displayed in user profile at end of posts)
-bio: I am an applied theorist in macroeconomics and learning theory currently focusing on how agents form expectations and how that 
-matters for and explains observed empirical behavior patterns. While my work is currently focused on the theory, it is always tied and backed up directly by the latest empirical findings, including my own work there.
+bio: My research interests include macroeconomics, large games, and models of household behavior with 'bounded rationality' (using Simon's original [sense](#boundedRationalityModal) .) 
 
+<a href="#" data-toggle="modal" data-target="#boundedRationalityModal">bounded rationality</a>
+
+<!-- Modal -->
+<div class="modal fade" id="boundedRationalityModal" tabindex="-1" role="dialog" aria-labelledby="modalTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalTitle">Bounded Rationality</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Bounded rationality is the idea that in decision making, rationality of individuals is limited by the information they have, the cognitive limitations of their minds, and the finite amount of time they have to make decisions. Originally proposed by Herbert A. Simon.
+      </div>
+    </div>
+  </div>
+</div>
 # Interests to show in About widget
 interests:
-- Behavioral Macroecnomics
-- Large scale games and aggregation
+- Macroeconomics
+- Behavioral Models
+- Large games and aggregation
 - Algorithmic Learning Theory
+- Bounded rationality
 - CS+Econ
 - Broadly what Shelling famously terms 'micromotives and macrobehavior.'
 
@@ -41,7 +63,7 @@ education:
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "/#contact" for contact widget.
-#social:
+social:
 #- icon: envelope
 #  icon_pack: fas
 #  link: '/#contact'
@@ -49,8 +71,8 @@ education:
 #  icon_pack: fab
 #  link: https://twitter.com/GeorgeCushen
 #- icon: graduation-cap  # Alternatively, use `google-scholar` icon from `ai` icon pack
-  icon_pack: fas
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  # icon_pack: fas
+  # link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
 - icon: github
   icon_pack: fab
   link: https://github.com/bkaplowitz
